@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: black;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+.logo-acesso {
+  border: 3px; /*cria bordas*/
+  width: 510px;
+  margin: auto;
+}
+.acesso-cadastro {
+  border: 3px solid rgb(17, 87, 17);
+  width: 500px;
+  border-radius: 30px; /*deixa a borda arredondada*/
+  margin: auto; /*cria margens na imagem (auto: centraliza a imagem)*/
+  padding: 50px;
+}
+.navegation {
+  border: 2px solid darkolivegreen;
+  width: 280px;
+  height: 35px;
+  border-radius: 70px;
+  margin: auto;
+  padding: 6px;
+}
+.acesso-login {
+  border: 3px solid rgb(17, 87, 17);
+  width: 500px;
+  border-radius: 30px;
+  margin: auto;
+  padding: 50px;
+}
+.acesso {
+  background-color: darkseagreen;
+}
+.login {
+  background-color: darkseagreen;
+}
+.cadastro {
+  background-color: darkseagreen;
+}
+.sobre {
+  background-color: darkseagreen;
+}
+.sobre-treinador {
+  text-align: justify;
+  border: 3px solid rgb(17, 87, 17);
+  width: 1300px;
+  border-radius: 30px;
+  margin: auto;
+  padding: 50px;
+}
+.index {
+  background-color: darkseagreen;
+}
+.bemvindo {
+  padding: 30px;
+  border: 2px solid darkgreen;
+  border-radius: 20px;
+}
+.tiposdetreino {
+  padding: 30px;
+  border: 2px solid darkgreen;
+  border-radius: 20px;
+}
+
+.botao:hover {
+  /*hover: pseudo elemento(animação de mouse)*/
+  background-color: rgba(109, 214, 197, 0.445);
+  cursor: pointer; /*coloca animação no ponteiro do mouse ao movimentar em cima de certo item*/
+  border: 1px solid darkgreen;
+}
+.botao {
+  width: 60px;
+}
+.botao-login:hover {
+  background-color: rgba(109, 214, 197, 0.445);
+  cursor: pointer; /*coloca animação no ponteiro do mouse ao movimentar em cima de certo item*/
+  border: 1px solid darkgreen;
+}
+.botao-login {
+  width: 60px;
+  animation: none;
+}
+.contato {
+  background-color: darkseagreen;
+}
+.contatos-2 {
+  padding: 20px;
+}
+.plano-de-treino {
+  padding: 10px;
+  border: 3px solid darkgreen;
+  border-radius: 40px;
+  margin: auto;
+}
+.plano_de_treino {
+  background-color: darkseagreen;
+}
+.calistenia {
+  background-color: darkseagreen;
+}
+.calistenia-forca{
+  padding: 40px;
+  text-align: justify;
+  text-decoration: underline;
+}
+.calistenia-pull{
+  padding: 10px;
+  text-decoration:wavy;
+  border: 3px solid rgb(95, 93, 93);
+  border-radius: 20px;
+}
+.calistenia-push{
+  padding: 10px;
+  text-decoration:wavy;
+  border: 3px solid rgb(8, 4, 236);
+  border-radius: 20px;
+}
+.calistenia-leg{
+  padding: 10px;
+  text-decoration:wavy;
+  border: 3px solid rgb(248, 2, 2);
+  border-radius: 20px;
+}
+.calistenia-hipertrofia{
+  padding: 40px;
+  text-align: justify;
+  text-decoration: underline;
+}
+.hipertrofia-pull{
+  padding: 10px;
+  text-decoration:wavy;
+  border: 3px solid rgb(95, 93, 93);
+  border-radius: 20px;
+}
+.hipertrofia-push{
+  padding: 10px;
+  text-decoration:wavy;
+  border: 3px solid rgb(8, 4, 236);
+  border-radius: 20px;
+}
+.hipertrofia-leg{
+  padding: 10px;
+  text-decoration:wavy;
+  border: 3px solid rgb(248, 2, 2);
+  border-radius: 20px;
+}
+.ioga{
+  background-color: darkseagreen;
+}
+.ioga-paragrafo{
+  padding: 20px;
+}
+.musculacao{
+  padding: 40px;
+  text-align: justify;
+  text-decoration: underline;
+}
+.hipertrofia-pull{
+  padding: 10px;
+  text-decoration:wavy;
+  border: 3px solid rgb(95, 93, 93);
+  border-radius: 20px;
+}
+.hipertrofia-push{
+  padding: 10px;
+  text-decoration:wavy;
+  border: 3px solid rgb(8, 4, 236);
+  border-radius: 20px;
+}
+.hipertrofia-leg{
+  padding: 10px;
+  text-decoration:wavy;
+  border: 3px solid rgb(248, 2, 2);
+  border-radius: 20px;}
+.musc{  
+  background-color: darkseagreen;}
+.hipertrofia{
+  padding: 40px;
+  text-align: justify;
+  text-decoration: underline;
+}
+.força-pull{
+  padding: 10px;
+  text-decoration:wavy;
+  border: 3px solid rgb(95, 93, 93);
+  border-radius: 20px;
+}
+.força-push{
+  padding: 10px;
+  text-decoration:wavy;
+  border: 3px solid rgb(8, 4, 236);
+  border-radius: 20px;
+}
+.força-leg{
+  padding: 10px;
+  text-decoration:wavy;
+  border: 3px solid rgb(248, 2, 2);
+  border-radius: 20px;}
