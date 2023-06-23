@@ -23,7 +23,7 @@ body {
 }
 .navegation {
   border: 2px solid darkolivegreen;
-  width: 280px;
+  width: 380px;
   height: 35px;
   border-radius: 70px;
   margin: auto;
@@ -71,7 +71,7 @@ body {
 }
 
 .botao:hover {
-  /*hover: pseudo elemento(animação de mouse)*/
+  /*hover: pseudo classe(animação de mouse)*/
   background-color: rgba(109, 214, 197, 0.445);
   cursor: pointer; /*coloca animação no ponteiro do mouse ao movimentar em cima de certo item*/
   border: 1px solid darkgreen;
@@ -113,7 +113,6 @@ body {
 }
 .calistenia-pull{
   padding: 10px;
-  text-decoration:wavy;
   border: 3px solid rgb(95, 93, 93);
   border-radius: 20px;
 }
