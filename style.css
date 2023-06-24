@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 body {
   color: black;
@@ -13,6 +13,7 @@ body {
   border: 3px; /*cria bordas*/
   width: 510px;
   margin: auto;
+  pad: 40px;
 }
 .acesso-cadastro {
   border: 3px solid rgb(17, 87, 17);
@@ -28,6 +29,10 @@ body {
   border-radius: 70px;
   margin: auto;
   padding: 6px;
+  position: fixed;
+  left: 500px;
+  top: 30px;
+  background-color:lightgreen;
 }
 .acesso-login {
   border: 3px solid rgb(17, 87, 17);
@@ -38,12 +43,15 @@ body {
 }
 .acesso {
   background-color: darkseagreen;
+  padding: 30px;
 }
 .login {
   background-color: darkseagreen;
+  padding: 30px;
 }
 .cadastro {
   background-color: darkseagreen;
+  padding: 30px;
 }
 .sobre {
   background-color: darkseagreen;
@@ -58,6 +66,7 @@ body {
 }
 .index {
   background-color: darkseagreen;
+  padding: 30px;
 }
 .bemvindo {
   padding: 30px;
@@ -90,6 +99,7 @@ body {
 }
 .contato {
   background-color: darkseagreen;
+  padding: 30px;
 }
 .contatos-2 {
   padding: 20px;
@@ -99,107 +109,139 @@ body {
   border: 3px solid darkgreen;
   border-radius: 40px;
   margin: auto;
+  padding: 30px;
 }
 .plano_de_treino {
   background-color: darkseagreen;
 }
 .calistenia {
   background-color: darkseagreen;
+  padding: 30px;
 }
-.calistenia-forca{
+.calistenia-forca {
   padding: 40px;
   text-align: justify;
   text-decoration: underline;
 }
-.calistenia-pull{
+.calistenia-pull {
   padding: 10px;
   border: 3px solid rgb(95, 93, 93);
   border-radius: 20px;
 }
-.calistenia-push{
+.calistenia-push {
   padding: 10px;
-  text-decoration:wavy;
+  text-decoration: wavy;
   border: 3px solid rgb(8, 4, 236);
   border-radius: 20px;
 }
-.calistenia-leg{
+.calistenia-leg {
   padding: 10px;
-  text-decoration:wavy;
+  text-decoration: wavy;
   border: 3px solid rgb(248, 2, 2);
   border-radius: 20px;
 }
-.calistenia-hipertrofia{
+.calistenia-hipertrofia {
   padding: 40px;
   text-align: justify;
   text-decoration: underline;
 }
-.hipertrofia-pull{
+.hipertrofia-pull {
   padding: 10px;
-  text-decoration:wavy;
+  text-decoration: wavy;
   border: 3px solid rgb(95, 93, 93);
   border-radius: 20px;
 }
-.hipertrofia-push{
+.hipertrofia-push {
   padding: 10px;
-  text-decoration:wavy;
+  text-decoration: wavy;
   border: 3px solid rgb(8, 4, 236);
   border-radius: 20px;
 }
-.hipertrofia-leg{
+.hipertrofia-leg {
   padding: 10px;
-  text-decoration:wavy;
+  text-decoration: wavy;
   border: 3px solid rgb(248, 2, 2);
   border-radius: 20px;
 }
-.ioga{
+.ioga {
   background-color: darkseagreen;
+  padding: 30px;
 }
-.ioga-paragrafo{
+.ioga-paragrafo {
   padding: 20px;
 }
-.musculacao{
+.musculacao {
   padding: 40px;
   text-align: justify;
   text-decoration: underline;
 }
-.hipertrofia-pull{
+.hipertrofia-pull {
   padding: 10px;
-  text-decoration:wavy;
+  text-decoration: wavy;
   border: 3px solid rgb(95, 93, 93);
   border-radius: 20px;
 }
-.hipertrofia-push{
+.hipertrofia-push {
   padding: 10px;
-  text-decoration:wavy;
+  text-decoration: wavy;
   border: 3px solid rgb(8, 4, 236);
   border-radius: 20px;
 }
-.hipertrofia-leg{
+.hipertrofia-leg {
   padding: 10px;
-  text-decoration:wavy;
+  text-decoration: wavy;
   border: 3px solid rgb(248, 2, 2);
-  border-radius: 20px;}
-.musc{  
-  background-color: darkseagreen;}
-.hipertrofia{
+  border-radius: 20px;
+}
+.musc {
+  background-color: darkseagreen;
+  padding: 30px;
+}
+
+.hipertrofia {
   padding: 40px;
   text-align: justify;
   text-decoration: underline;
 }
-.força-pull{
+.força-pull {
   padding: 10px;
-  text-decoration:wavy;
+  text-decoration: wavy;
   border: 3px solid rgb(95, 93, 93);
   border-radius: 20px;
 }
-.força-push{
+.força-push {
   padding: 10px;
-  text-decoration:wavy;
+  text-decoration: wavy;
   border: 3px solid rgb(8, 4, 236);
   border-radius: 20px;
 }
-.força-leg{
+.força-leg {
   padding: 10px;
-  text-decoration:wavy;
+  text-decoration: wavy;
   border: 3px solid rgb(248, 2, 2);
-  border-radius: 20px;}
+  border-radius: 20px;
+}
+.foto_calistenia{
+  border: solid 4px lightgreen;
+  border-radius: 5px;
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 60px;
+  border-left-color: darkgreen;
+  border-right-color: green;
+}
+.foto_ioga{
+  border: solid 4px lightskyblue;
+  border-radius: 5px;
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 60px;
+  border-left-color: darkblue;
+  border-right-color: blue;
+}
+.foto_musc{
+  border: solid 4px rgb(170, 42, 42);
+  border-radius: 50px;
+  border-top-color: red ;
+  border-top-color: crimson;
+  border-bottom-color: darkred;
+  border-right-color: firebrick;
+}

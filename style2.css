@@ -21,6 +21,14 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  border: solid 3px lightgreen;
+  border-radius: 30px;
+  border-top-left-radius: 300px;
+  border-bottom-right-radius: 300px;
+  border-left-color: darkgreen;
+  border-right-color: green;
+  margin-left: 400px;
+  margin-right: 400px;
 }
 .index {
   background-color: var(--backgroundcolor)
