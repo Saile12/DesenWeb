@@ -5,41 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página Inicial</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
   </head>
 
   <body class="index">
     <img src="img/soul is a cross logo.png" alt="logo_site" width="500" />
-    <header>
-      <div class="navegation">
-        <nav>
-          <a href="sobre.html">Sobre</a>
-          <a href="contato.html">Contato</a>
-          <a href="planos de treinos.html">Planos de treinos</a>
-          <a href="acesso.html">Acesso</a>
-          <a href="index copy.html">Inicio02</a>
-        </nav>
-      </div>
+    <div>
+      <input type="checkbox" id="menu">
+      <label class="material-symbols-outlined abrir-menu" for="menu">menu</label>
+      <label class="material-symbols-outlined fechar-menu"for="menu">close</label>
+      <ul class="navegation">
+        <li><a href="acesso.html">Acesso</a></li>
+        <li><a href="planos de treinos.html">Planos de treinos</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="index copy.html">Inicio02</a></li>
+      </ul>
+    </div>
+    <div class="corpo">
       <div class="bemvindo">
         <h1>Bem Vindo</h1>
         <br />
-        <p>
-          Bem-vindo ao Blog que aconselhará as pessoas que precisam de um UP na
-          sua vida fitness
+        <p class="texto">
+          Bem-vindo ao Blog que aconselhará as pessoas que precisam de um UP
+          na sua vida fitness
         </p>
+        <br>
       </div>
       <div class="tiposdetreino">
         <h1>Tipos de treinos</h1>
         <br />
         <p>
-          Nesse site você encontrará diversos tipos de treinos excelentes para o
-          seu devido interesse. Trabalharemos com treinos de Calistenia, treinos
-          cardiovasculares, treinos de musculação e treinos de artes marciais.
-          Fique ligado na página
-          <a href="planos de treinos.html">"Planos de treinos"</a> e se cadastre
-          no site na página <a href="acesso.html">"Acesso"</a> e não perca as
-          novidades e dicas para melhorar sua vida fitness. Um exemplo em vídeo
-          do tipo de treinos que terá nesse site se estende abaixo em um Treino
-          Tábata para melhoria de cardio e condicionamento físico.
+          Nesse site você encontrará diversos tipos de treinos excelentes para
+          o seu devido interesse. Trabalharemos com treinos de Calistenia,
+          treinos cardiovasculares, treinos de musculação e treinos de artes
+          marciais. Fique ligado na página
+          <a href="planos de treinos.html">"Planos de treinos"</a> e se
+          cadastre no site na página <a href="acesso.html">"Acesso"</a> e não
+          perca as novidades e dicas para melhorar sua vida fitness. Um
+          exemplo em vídeo do tipo de treinos que terá nesse site se estende
+          abaixo em um Treino Tábata para melhoria de cardio e condicionamento
+          físico.
         </p>
         <br />
         <iframe
@@ -48,10 +57,30 @@
           src="https://www.youtube.com/watch?v=goPYcOcdvkYautoplay=1&mute=1"
         >
         </iframe>
+        <div class="flex">
+          <div class="coluna1">
+            <h1>Treinos de Calistenia</h1>
+            <p>
+              Nesse site você poderá treinar com exercícios que usa apenas seu
+              peso corporal</p> <img src="img/calistenia_foto.png" width="200px"><br>
+              Flexão de solo
+          </div>
+          <div class="coluna2">
+            <h1>Treinos de Musculação</h1>
+            <p>
+              Nesse site você poderá treinar com exercícios com progressão de
+              pesos em maquinas</p> <img src="img/musc_foto.png" width="180px"><br>
+              Desenvolvimento com Barra
+          </div>
+          <div class="coluna3">
+            <h1>Treinos de Ioga</h1>
+            <p>Nesse site você poderá treinar sua mobilidade e flexibilidade</p> <img src="img/ioga_foto.png" width="150px"><br>
+            Posição da árvore (Vriksasana)
+          </div>
       </div>
-    </header>
-  </body>
-  <footer>
+    </div>
+  <footer style="margin: auto;">
     Site desenvoldido por <a href="sobre.html">Elias Sousa Cruz</a>
-  </footer>
+  </footer> <!-- rodapé do site -->
+  </body>
 </html>

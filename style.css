@@ -1,8 +1,36 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0; /* define margens em volta do elemento */
+  padding: 0; /*  */
   box-sizing: border-box;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.corpo {
+  padding-left: 150px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.bemvindo {
+  margin: auto;
+}
+@media print {
+  .navegation {
+    display: none;
+  }
+}
+div > ul {
+  display: none;
+}
+#menu:checked ~ ul{
+  display: block;
+}
+#menu:checked ~ .fechar-menu {
+  display: block;
+}
+#menu:checked ~ .abrir-menu {
+  display: none;
+}
+#menu{
+  display: none;
 }
 body {
   color: black;
@@ -22,17 +50,36 @@ body {
   margin: auto; /*cria margens na imagem (auto: centraliza a imagem)*/
   padding: 50px;
 }
-.navegation {
-  border: 2px solid darkolivegreen;
-  width: 380px;
-  height: 35px;
-  border-radius: 70px;
+ul {
+  list-style-type: none;
   margin: auto;
-  padding: 6px;
+  padding: auto;
+  width: 150px;
+  bottom: 0px;
+  left: 0px;
+  background-color: black;
+  border: 1px solid #555;
   position: fixed;
-  left: 500px;
-  top: 30px;
-  background-color:lightgreen;
+  height: 100%;
+  overflow: auto;
+}
+li {
+  text-align: center;
+  border-bottom: 1px solid #555;
+  margin: auto;
+}
+li:last-child {
+  border-bottom: none;
+}
+li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+}
+li a:hover {
+  background-color: lightgreen;
+  color: black;
 }
 .acesso-login {
   border: 3px solid rgb(17, 87, 17);
@@ -59,26 +106,35 @@ body {
 .sobre-treinador {
   text-align: justify;
   border: 3px solid rgb(17, 87, 17);
-  width: 1300px;
+  width: 1100px;
   border-radius: 30px;
   margin: auto;
-  padding: 50px;
+  padding: 20px;
 }
 .index {
   background-color: darkseagreen;
   padding: 30px;
 }
-.bemvindo {
-  padding: 30px;
-  border: 2px solid darkgreen;
-  border-radius: 20px;
+.texto {
+  text-align: justify;
 }
 .tiposdetreino {
+  padding: 10px;
+  border: 3px solid darkgreen;
+  border-radius: 40px;
+  margin: auto;
   padding: 30px;
-  border: 2px solid darkgreen;
-  border-radius: 20px;
+  width: 1000px;
 }
-
+.coluna1 h1 .coluna1 p {
+  flex: 1;
+  margin: 10px;
+  margin-top: 10px;
+}
+.flex {
+  display: flex;
+  margin-top: 50px;
+}
 .botao:hover {
   /*hover: pseudo classe(animação de mouse)*/
   background-color: rgba(109, 214, 197, 0.445);
@@ -100,9 +156,12 @@ body {
 .contato {
   background-color: darkseagreen;
   padding: 30px;
+  margin: auto;
+  left: 10px;
 }
 .contatos-2 {
   padding: 20px;
+  margin: auto;
 }
 .plano-de-treino {
   padding: 10px;
@@ -110,6 +169,7 @@ body {
   border-radius: 40px;
   margin: auto;
   padding: 30px;
+  width: 1000px;
 }
 .plano_de_treino {
   background-color: darkseagreen;
@@ -122,106 +182,125 @@ body {
   padding: 40px;
   text-align: justify;
   text-decoration: underline;
+  margin: auto;
 }
 .calistenia-pull {
   padding: 10px;
   border: 3px solid rgb(95, 93, 93);
   border-radius: 20px;
+  margin: auto;
 }
 .calistenia-push {
   padding: 10px;
   text-decoration: wavy;
   border: 3px solid rgb(8, 4, 236);
   border-radius: 20px;
+  margin: auto;
 }
 .calistenia-leg {
   padding: 10px;
   text-decoration: wavy;
   border: 3px solid rgb(248, 2, 2);
   border-radius: 20px;
+  margin: auto;
 }
 .calistenia-hipertrofia {
   padding: 40px;
   text-align: justify;
   text-decoration: underline;
+  margin: auto;
 }
 .hipertrofia-pull {
   padding: 10px;
   text-decoration: wavy;
   border: 3px solid rgb(95, 93, 93);
   border-radius: 20px;
+  margin: auto;
 }
 .hipertrofia-push {
   padding: 10px;
   text-decoration: wavy;
   border: 3px solid rgb(8, 4, 236);
   border-radius: 20px;
+  margin: auto;
 }
 .hipertrofia-leg {
   padding: 10px;
   text-decoration: wavy;
   border: 3px solid rgb(248, 2, 2);
   border-radius: 20px;
+  margin: auto;
 }
 .ioga {
   background-color: darkseagreen;
   padding: 30px;
+  margin: auto;
 }
 .ioga-paragrafo {
   padding: 20px;
+  margin: auto;
 }
 .musculacao {
   padding: 40px;
   text-align: justify;
   text-decoration: underline;
+  margin: auto;
 }
 .hipertrofia-pull {
   padding: 10px;
   text-decoration: wavy;
   border: 3px solid rgb(95, 93, 93);
   border-radius: 20px;
+  margin: auto;
 }
 .hipertrofia-push {
   padding: 10px;
   text-decoration: wavy;
   border: 3px solid rgb(8, 4, 236);
   border-radius: 20px;
+  margin: auto;
 }
 .hipertrofia-leg {
   padding: 10px;
   text-decoration: wavy;
   border: 3px solid rgb(248, 2, 2);
   border-radius: 20px;
+  margin: auto;
 }
 .musc {
   background-color: darkseagreen;
   padding: 30px;
+  margin: auto;
 }
 
 .hipertrofia {
   padding: 40px;
   text-align: justify;
   text-decoration: underline;
+  margin: auto;
 }
 .força-pull {
   padding: 10px;
   text-decoration: wavy;
   border: 3px solid rgb(95, 93, 93);
   border-radius: 20px;
+  margin: auto;
 }
 .força-push {
   padding: 10px;
   text-decoration: wavy;
   border: 3px solid rgb(8, 4, 236);
   border-radius: 20px;
+  margin: auto;
 }
 .força-leg {
   padding: 10px;
   text-decoration: wavy;
   border: 3px solid rgb(248, 2, 2);
-  border-radius: 20px;
+  border-radius: 20em;
+  margin: auto;
 }
-.foto_calistenia{
+.foto_calistenia {
   border: solid 4px lightgreen;
   border-radius: 5px;
   border-top-left-radius: 80px;
@@ -229,7 +308,7 @@ body {
   border-left-color: darkgreen;
   border-right-color: green;
 }
-.foto_ioga{
+.foto_ioga {
   border: solid 4px lightskyblue;
   border-radius: 5px;
   border-top-right-radius: 80px;
@@ -237,10 +316,10 @@ body {
   border-left-color: darkblue;
   border-right-color: blue;
 }
-.foto_musc{
+.foto_musc {
   border: solid 4px rgb(170, 42, 42);
   border-radius: 50px;
-  border-top-color: red ;
+  border-top-color: red;
   border-top-color: crimson;
   border-bottom-color: darkred;
   border-right-color: firebrick;

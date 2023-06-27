@@ -2,14 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: var(--font)
+  font-family: var(--font);
 }
 
-:root{
+:root {
   --backgroundcolor: darkseagreen;
   --textcolor: black;
   --font: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  
 }
 
 body {
@@ -17,21 +16,31 @@ body {
   background-color: var(--backgroundcolor);
   text-align: center;
 }
-nav {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  border: solid 3px lightgreen;
-  border-radius: 30px;
-  border-top-left-radius: 300px;
-  border-bottom-right-radius: 300px;
-  border-left-color: darkgreen;
-  border-right-color: green;
-  margin-left: 400px;
-  margin-right: 400px;
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: black;
+}
+li {
+  float: left;
+}
+li:last-child {
+  border-bottom: none;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: lightgreen;
+  color: black;
 }
 .index {
-  background-color: var(--backgroundcolor)
+  background-color: var(--backgroundcolor);
 }
 .bemvindo {
   width: 400px;
@@ -39,21 +48,61 @@ nav {
   margin-top: 20px;
   margin-bottom: 40px;
 }
-.treino{
+.treino {
   text-align: justify;
-}
-.flex{
   display: flex;
-  margin-top: 50px;
+  flex-wrap: wrap;
 }
 .coluna1 h1 .coluna1 p {
   flex: 1;
   margin: 10px;
   margin-top: 10px;
-
 }
 .rodape {
   margin-top: 40px;
   margin-bottom: 10px;
 }
+.treininho {
+  padding: 20px;
+  border: 3px solid darkgreen;
+  border-radius: 40px;
+  margin: auto;
+  width: 1000px;
+}
+@media print {
+  .navegation {
+    display: none;
+  }
+}
+.abrir-menu{
+  opacity: 0;
+  float: left;
+}
+.fechar-menu{
+  opacity: 0;
+  float: left;
+}
+@media (max-width: 600px) {
+  div > ul {
+    display: none;
+  }
+  div:hover > ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .abrir-menu{
+    opacity: 100%;
+    margin: 1rem;
+  }
+  div:hover .abrir-menu{
+    display: none;
+  }
+  div:hover .fechar-menu{
+    display: block;
+    opacity: 100%;
+    margin: 1rem;
+  }
+}
+
+
 
