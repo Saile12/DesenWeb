@@ -324,3 +324,8 @@ li a:hover {
   border-bottom-color: darkred;
   border-right-color: firebrick;
 }
+.navega{
+  position: fixed;
+  top: 0px;
+  left: 150px
+}
