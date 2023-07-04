@@ -74,11 +74,11 @@ li a:hover {
     display: none;
   }
 }
-.abrir-menu{
+.abrir-menu {
   opacity: 0;
   float: left;
 }
-.fechar-menu{
+.fechar-menu {
   opacity: 0;
   float: left;
 }
@@ -90,19 +90,16 @@ li a:hover {
     display: flex;
     flex-direction: column;
   }
-  .abrir-menu{
+  .abrir-menu {
     opacity: 100%;
     margin: 1rem;
   }
-  div:hover .abrir-menu{
+  div:hover .abrir-menu {
     display: none;
   }
-  div:hover .fechar-menu{
+  div:hover .fechar-menu {
     display: block;
     opacity: 100%;
     margin: 1rem;
   }
 }
-
-
-
