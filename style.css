@@ -188,7 +188,6 @@ li a:hover {
 .calistenia-forca {
   padding: 40px;
   text-align: justify;
-  text-decoration: underline;
   margin: auto;
 }
 .calistenia-pull {
@@ -196,6 +195,10 @@ li a:hover {
   border: 3px solid rgb(95, 93, 93);
   border-radius: 20px;
   margin: auto;
+  list-style: none;
+}
+ol{
+  list-style: none;
 }
 .calistenia-push {
   padding: 10px;
@@ -214,7 +217,6 @@ li a:hover {
 .calistenia-hipertrofia {
   padding: 40px;
   text-align: justify;
-  text-decoration: underline;
   margin: auto;
 }
 .hipertrofia-pull {
@@ -250,7 +252,6 @@ li a:hover {
 .musculacao {
   padding: 40px;
   text-align: justify;
-  text-decoration: underline;
   margin: auto;
 }
 .hipertrofia-pull {
@@ -283,7 +284,6 @@ li a:hover {
 .hipertrofia {
   padding: 40px;
   text-align: justify;
-  text-decoration: underline;
   margin: auto;
 }
 .força-pull {
@@ -304,7 +304,7 @@ li a:hover {
   padding: 10px;
   text-decoration: wavy;
   border: 3px solid rgb(248, 2, 2);
-  border-radius: 20em;
+  border-radius: 20px;
   margin: auto;
 }
 .foto_calistenia {
